@@ -35,7 +35,7 @@ def run_ml_app():
         prediction = loaded_model.predict(single_sample)
         st.write(prediction)
         
-        pred_prob = loaded_model.predict_prob(single_sample)
+        pred_prob = loaded_model.predict_proba(single_sample)
         st.write(pred_prob)
         
         if prediction == 0:
