@@ -13,7 +13,7 @@ def run_eda_app():
     st.subheader("잘 진행됨!")
     
     # 데이터셋 불러오기
-    iris_df = pd.read_csv('data\iris.csv')
+    iris_df = pd.read_csv('data/iris.csv')
     # st.dataframe(iris_df)
     
     # 메뉴 지정
